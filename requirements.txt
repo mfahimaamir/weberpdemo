@@ -280,7 +280,6 @@ streamlit_book==0.7.6
 streamlit_dynamic_filters==0.1.9
 streamlit_sql==0.2.4
 strsimpy==0.2.1
-tangled-up-in-unicode==0.1.0
 tenacity==9.0.0
 termcolor==2.5.0
 terminado==0.18.1
