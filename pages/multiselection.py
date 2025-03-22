@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-video_file = open("pgraph.mp4", "rb")
-video_bytes = video_file.read()
-st.video(video_bytes)
+#video_file = open("pgraph.mp4", "rb")
+#video_bytes = video_file.read()
+#st.video(video_bytes)
 st.header("Multi Record Selection with Export to Excle")
 df = pd.DataFrame(
     {

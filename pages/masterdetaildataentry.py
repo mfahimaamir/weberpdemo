@@ -1,9 +1,9 @@
 import streamlit as st
 from streamlit import session_state as ss
 import pandas as pd
-video_file = open("mdde.mp4", "rb")
-video_bytes = video_file.read()
-st.video(video_bytes)
+#video_file = open("mdde.mp4", "rb")
+#video_bytes = video_file.read()
+#st.video(video_bytes)
 st.header("Master Detail Date Entery")
 
 def mpg_change():

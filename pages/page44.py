@@ -13,11 +13,11 @@ import pandas as pd
 from pivottablejs import pivot_ui
 
 # Load your dataset
-st.write("Muhammad is THe Best ")
+#st.write("Muhammad is THe Best ")
 
 # Configure grid options
 
-with st.expander("Pivot Table-----"): 
+with st.expander("Filter type 1"): 
     url12 = "https://docs.google.com/spreadsheets/d/1eUFk3UyL1663rv6SrGD43IoNnwULg1yW/edit?usp=sharing&ouid=105182257404870437876&rtpof=true&sd=true"
     file_id122 = url12.split("/")[-2]
     path1122 = "https://drive.google.com/uc?export=download&id=" + file_id122
@@ -70,7 +70,7 @@ with st.expander("Pivot Table-----"):
             
     
 
-with st.expander("testing -2 Pivot Table------"): 
+with st.expander("Filter type 2"): 
     url12 = "https://docs.google.com/spreadsheets/d/1eUFk3UyL1663rv6SrGD43IoNnwULg1yW/edit?usp=sharing&ouid=105182257404870437876&rtpof=true&sd=true"
     file_id122 = url12.split("/")[-2]
     path1122 = "https://drive.google.com/uc?export=download&id=" + file_id122
@@ -157,7 +157,7 @@ with st.expander("testing -2 Pivot Table------"):
             file_name='selected.csv',
             mime='text/csv',
         )
-with st.expander("testing -44444444444 Pivot Table---------"): 
+with st.expander("Filter type 3"): 
     
 
     data = {

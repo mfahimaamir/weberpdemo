@@ -4,9 +4,9 @@ import pandas as pd
 
 #text = 'Example content'
 #st.download_button(label='Download text file', data=text, file_name='example.txt', mime='text/plain')
-video_file = open("pgraph.mp4", "rb")
-video_bytes = video_file.read()
-st.video(video_bytes)
+#video_file = open("pgraph.mp4", "rb")
+#video_bytes = video_file.read()
+#st.video(video_bytes)
 
 #st.title("Stlite Sharing: Serverless Streamlit app platform")
 st.header("Ploting the Graph")
@@ -37,7 +37,7 @@ st.header("Chart sample")
 #st.subheader("Chart sample")
 chart_data = get_chart_data()
 
-tab1, tab2, tab3 = st.tabs(["Line chart", "Area chart", "Bar chart"])
+tab1, tab2, tab3  = st.tabs(["Line chart", "Area chart", "Bar chart"])
 with tab1:
     st.line_chart(chart_data)
 with tab2:

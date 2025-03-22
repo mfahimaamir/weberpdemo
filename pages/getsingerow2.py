@@ -1,9 +1,9 @@
 import streamlit as st
 from streamlit import session_state as ss
 import pandas as pd
-video_file = open("ssel.mp4", "rb")
-video_bytes = video_file.read()
-st.video(video_bytes)
+#video_file = open("ssel.mp4", "rb")
+#video_bytes = video_file.read()
+#st.video(video_bytes)
 st.header("Single Record Selection with Sorting and Export to Excle")
 
 def mpg_change():
