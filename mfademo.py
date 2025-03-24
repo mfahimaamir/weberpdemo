@@ -3,19 +3,26 @@ from streamlit_option_menu import option_menu
 from openpyxl import Workbook
 import pandas as pd
 
-
+##MainMenu {visibility: hidden;}
 
 st.set_page_config(page_title="Page Title", layout="wide")
 st.markdown(
     """
     <style>
-    #MainMenu {visibility: hidden;}
+    MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
+    #[data-testid="stSidebar"] {            visibility: hidden;        }
     </style>
     """,
 
     unsafe_allow_html=True
 )
+
+
+
+
+
+
 
 #https://docs.google.com/spreadsheets/d/1-6-dNTXR3YLAvRIDRWf9DQsdXw3EAJWt/edit?usp=sharing&ouid=105182257404870437876&rtpof=true&sd=true
 url = "https://docs.google.com/spreadsheets/d/1-6-dNTXR3YLAvRIDRWf9DQsdXw3EAJWt/edit?usp=sharing&ouid=105182257404870437876&rtpof=true&sd=true"
@@ -118,4 +125,21 @@ pages.run()
 #py -m streamlit run c:\demo\mfademo.py
 
 #py -m streamlit run c:\demo\loginpage.py
+
+
+
+if st.button('Check availability'):
+    st.header("muhammad is the best")
+    st.markdown(
+        """
+        <style>
+        [data-testid="stSidebar"] {
+            visibility: visible;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
+
 
